@@ -1,0 +1,25 @@
+{
+  "name": "persql",
+  "description": "PerSQL plugins for coding agents: give the agent its own SQLite database, or a shared cross-agent context store.",
+  "owner": { "name": "PerSQL" },
+  "plugins": [
+    {
+      "name": "persql",
+      "source": "./database/claude",
+      "description": "Provision and query your own SQLite database from your agent — tables, SQL, branch a sandbox, publish typed HTTP endpoints. OAuth sign-in on first use; no API key, no signup form.",
+      "category": "integrations",
+      "keywords": ["database", "sqlite", "sql", "mcp", "persql", "agent"],
+      "homepage": "https://persql.com",
+      "license": "MIT"
+    },
+    {
+      "name": "persql-context",
+      "source": "./context/claude",
+      "description": "Shared, structured context store your agents read across sessions and tools. Requires the persql CLI (npm i -g @persql/cli) and `persql login`.",
+      "category": "integrations",
+      "keywords": ["memory", "context", "mcp", "persql", "agent"],
+      "homepage": "https://persql.com",
+      "license": "MIT"
+    }
+  ]
+}

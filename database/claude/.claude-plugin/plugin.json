@@ -1,0 +1,13 @@
+{
+  "name": "persql",
+  "description": "Provision and query your own SQLite database from Claude Code. Sign in once in the browser on first use — no API key to copy, no account to create first.",
+  "version": "0.1.0",
+  "author": { "name": "PerSQL", "url": "https://persql.com" },
+  "homepage": "https://persql.com",
+  "mcpServers": {
+    "persql": {
+      "type": "http",
+      "url": "https://mcp.persql.com/mcp"
+    }
+  }
+}

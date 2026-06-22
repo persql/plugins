@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "persql-context": {
+      "command": "persql",
+      "args": ["mcp"]
+    }
+  }
+}

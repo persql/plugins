@@ -1,0 +1,13 @@
+{
+  "name": "persql-context",
+  "description": "Shared, structured context store for your agents — recall before starting, remember durable facts as you learn them, across sessions and tools. Requires the persql CLI (npm i -g @persql/cli) and `persql login`.",
+  "version": "0.1.0",
+  "author": { "name": "PerSQL", "url": "https://persql.com" },
+  "homepage": "https://persql.com",
+  "mcpServers": {
+    "persql-context": {
+      "command": "persql",
+      "args": ["mcp"]
+    }
+  }
+}

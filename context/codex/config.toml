@@ -1,0 +1,6 @@
+# Add to ~/.codex/config.toml
+[mcp_servers.persql-context]
+command = "persql"
+args = ["mcp"]
+# For a store that follows you across repos instead of per-repo:
+# args = ["mcp", "--scope", "user"]

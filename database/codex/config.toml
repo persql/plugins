@@ -1,0 +1,8 @@
+# PerSQL database MCP for the Codex CLI. Add this block to ~/.codex/config.toml
+# (or run: codex mcp add persql --url https://mcp.persql.com/mcp).
+#
+# Codex connects over streamable HTTP and runs the OAuth browser flow on the
+# first tool call — sign in / sign up at persql.com and pick a workspace. No
+# bearer token to paste; Codex stores the credential after you authorize.
+[mcp_servers.persql]
+url = "https://mcp.persql.com/mcp"
